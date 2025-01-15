@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="An amazing developer portfolio example">
+    <title>My Portfolio</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <div class="nav-wrapper">
+        <div class="menu-icon" onclick="toggleMenu()">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+        <nav id="nav">
+            <ul>
+                <li><a href="#home" onclick="hideMenu()">Home</a></li>
+                <li><a href="#about" onclick="hideMenu()">About</a></li>
+                <li><a href="#projects" onclick="hideMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="hideMenu()">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- Main Content -->
+    <main class="main-container">
+        <!-- Home Section -->
+        <section id="home">
+            <div class="slideshow">
+                <img src="img/slideshow/cyberpunk1.jpg" alt="Cyberpunk futuristic city at midnight with bright pink moon" class="slide active">
+                <img src="img/slideshow/cyberpunk2.jpg" alt="Cyberpunk futuristic city in the evening, skyscapers in the distance" class="slide" loading="lazy">
+                <img src="img/slideshow/cyberpunk3.jpg" alt="Cyberpunk futuristic city at dawn, skyscapers in the distance" class="slide" loading="lazy">
+                <img src="img/slideshow/cyberpunk4.jpg" alt="Cyberpunk futuristic city street market at night with people shopping" class="slide" loading="lazy">
+                <img src="img/slideshow/cyberpunk5.jpg" alt="Cyberpunk futuristic city at dawn, spaceship restaurant in foreground" class="slide" loading="lazy">
+            </div>
+            <div class="page-title">
+                <h1>Shafi Yaftali</h1>
+            </div>
+            <div class="mouse"></div>
+        </section>
+        <!-- About Section -->
+        <section id="about">
+            <div class="about-container">
+                <div class="section-title">
+                    <h2>About</h2>
+                </div>
+                <div class="about-grid">
+                    <div class="box1">
+                        <div class="text-box">
+                            <h3>How did it start?</h3>
+                            <p>
+                            Every developer has a beginning, and mine started in 10th grade with an old laptop and a curiosity for how websites worked. What began as a hobby of tinkering with HTML turned into a passion for crafting digital experiences that make people's lives easier. Over the years, I’ve honed my skills in React, React Native, and TypeScript, building everything from small business websites to feature-rich mobile apps. For me, web development isn’t just about writing code—it’s about solving problems and telling stories through technology.
+                        </p>
+                        </div>
+                    </div>
+                    <div class="icon-box box2">
+                        <i class="fa-solid fa-code"></i>
+                        <h3>Quality Code</h3>
+                        <p>The first time I wrote a complex piece of code, I thought it was perfect. Then I had to revisit it months later. That experience taught me the importance of clean, maintainable code—not just for myself but for others who might pick up the project. Now, I treat every line of code as part of a legacy, ensuring it’s efficient, readable, and built to last. It’s my way of future-proofing solutions for clients and collaborators.</p>
+                    </div>
+                    <div class="icon-box box3">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+                        <h3>CSS Wizard</h3>
+                        <p>I still remember the excitement of making my first website’s header change color when you hovered over it. It felt like magic. That magic never faded, and now I use CSS to create visually stunning and responsive designs. Whether it’s animating a button or building a layout that works seamlessly on any device, I see CSS as my paintbrush and the browser as my canvas.</p>
+                    </div>
+                    <div class="icon-box box4">
+                        <i class="fa-solid fa-trophy"></i>
+                        <h3>Award Winning</h3>
+                        <p>One of my proudest moments was launching the Shiveh app—a platform I designed to help local businesses thrive. While it hasn’t won an official award, the gratitude from small business owners who’ve found success through the app feels more rewarding than any trophy. Moments like these remind me why I love what I do.</p>         
+                    </div>
+                    <div class="icon-box box5">
+                        <i class="fa-solid fa-infinity"></i>
+                        <h3>Infinite Ideas</h3>
+                        <p>Great ideas often come from unexpected places. Like the time I helped a friend struggling to find local halal restaurants by creating a directory app. That idea grew into Shiveh, a project that supports local communities and connects people to the resources they need. Every project I take on starts with listening—because the best ideas aren’t just creative, they’re meaningful.</p>
+                    </div>
+                    <div class="box6">
+                        <div class="text-box">
+                            <h3>Projects</h3>
+                            <p>
+                            Shiveh App: Building Community Through Technology
+                            When I noticed a gap in how local businesses were connecting with their customers, I knew I had to act. The result was Shiveh, a user-friendly directory app that bridges this gap From creating the app is clean interface to ensuring seamless API integration, every step of this journey was a labor of love for community empowerment.
+
+                            ProvidaPro: Simplifying Home Services
+                            ProvidaPro started as an idea to make scheduling home service appointments easier for both businesses and customers. I built the platform to streamline booking, manage schedules, and enhance customer communication. This project taught me the power of automation and how small changes can make a big difference in people’s lives.
+
+                            E-commerce Website: A Business Transformation Story
+                            A local artisan wanted to expand their business online but didn’t know where to start. I designed a sleek e-commerce website that showcased their products beautifully and made purchasing simple. Watching their business grow and hearing their gratitude was a reminder of why I love helping others succeed through technology.
+
+                            Freelance Projects: Stories of Collaboration
+                            Whether it was helping a teacher create an interactive learning site or building a menu system for a family-owned restaurant, freelance projects have allowed me to collaborate with people from all walks of life. These experiences not only shaped my skills but also deepened my understanding of how technology can solve unique challenges.
+                        </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Projects Section -->
+        <!-- Mockup Image by vector_corp on Freepik -->
+        <section id="projects">
+            <div class="projects-container">
+                <div class="section-title">
+                    <h2>Projects!</h2>
+                </div>
+                <div class="projects-grid">
+
+                    <div class="grid-item">
+                        <div class="mockup">
+                            <a href="https://jacintodesign.github.io/calculator/" target="_blank">
+                                <img src="img/projects/calculator.png" alt="Calculator Project" loading="lazy">
+                            </a>
+                        </div>
+                        <div class="link-container">
+                            <a href="https://github.com/JacintoDesign/calculator" class="github-link" target="_blank">Github</a>
+                            <a href="https://jacintodesign.github.io/calculator/" class="live-link" target="_blank">Live Project</a>
+                        </div>
+                    </div>
+
+                    <div class="grid-item">
+                        <div class="mockup">
+                            <a href="https://jacintodesign.github.io/joke-teller/" target="_blank">
+                                <img src="img/projects/joke.png" alt="Joke Teller Project" loading="lazy">
+                            </a>           
+                        </div>
+                        <div class="link-container">
+                            <a href="https://github.com/Shafi-Yaftali01/joke-teller" class="github-link" target="_blank">Github</a>
+                            <a href="https://shafi-yaftali01.github.io/joke-teller/" class="live-link" target="_blank">Live Project</a>
+                        </div>
+                    </div>
+
+                    <div class="grid-item">
+                        <div class="mockup">
+                            <a href="https://jacintodesign.github.io/music-player/" target="_blank">
+                                <img src="img/projects/music.png" alt="Music Player Project" loading="lazy">
+                            </a>
+                        </div>
+                        <div class="link-container">
+                            <a href="https://github.com/JacintoDesign/music-player" class="github-link" target="_blank">Github</a>
+                            <a href="https://jacintodesign.github.io/music-player/" class="live-link" target="_blank">Live Project</a>
+                        </div>
+                    </div>                    
+
+                    <div class="grid-item">
+                        <div class="mockup">
+                            <a href="https://jacintodesign.github.io/quote-generator/" target="_blank">
+                                <img src="img/projects/quote.png" alt="Quote Generator Project" loading="lazy">
+                            </a>
+                        </div>
+                        <div class="link-container">
+                            <a href="https://github.com/JacintoDesign/quote-generator" class="github-link" target="_blank">Github</a>
+                            <a href="https://jacintodesign.github.io/quote-generator/" class="live-link" target="_blank">Live Project</a>
+                        </div>
+                    </div>                    
+
+                    <div class="grid-item">
+                        <div class="mockup">
+                            <a href="https://jacintodesign.github.io/bookmark-app/" target="_blank">
+                                <img src="img/projects/bookmark.png" alt="Bookmark Project" loading="lazy">
+                            </a>
+                        </div>
+                        <div class="link-container">
+                            <a href="https://github.com/JacintoDesign/bookmark-app" class="github-link" target="_blank">Github</a>
+                            <a href="https://jacintodesign.github.io/bookmark-app/" class="live-link" target="_blank">Live Project</a>
+                        </div>
+                    </div>                    
+
+                    <div class="grid-item">
+                        <div class="mockup">
+                            <a href="https://jacintodesign.github.io/drag-and-drop/" target="_blank">
+                                <img src="img/projects/dragdrop.png" alt="Drag and Drop Project" loading="lazy">
+                            </a>
+                        </div>
+                        <div class="link-container">
+                            <a href="https://github.com/JacintoDesign/drag-and-drop" class="github-link" target="_blank">Github</a>
+                            <a href="https://jacintodesign.github.io/drag-and-drop/" class="live-link" target="_blank">Live Project</a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="contact-container">
+                <!-- Title -->
+                <div class="section-title">
+                    <h2>Contact</h2>
+                </div>
+                <!-- Banner -->
+                <a href="mailto:shafiyaftali001@gmail.com" class="banner-link">
+                    <div class="banner">
+                        <div class="banner-content" id="bannerContent"></div>
+                    </div>
+                </a>                
+            </div>
+            <!-- Footer -->
+            <footer>
+                <!-- Social Media -->
+                <div class="social-media-icons">
+                    <a href="https://www.facebook.com/" target="_blank" aria-label="Follow us on Facebook" title="Facebook">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>             
+                    <a href="https://www.instagram.com/" target="_blank" aria-label="Follow us on Instagram" title="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>                    
+                    <a href="https://twitter.com/" target="_blank" aria-label="Follow us on Twitter (X)" title="Twitter (X)">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>                    
+                    <a href="https://www.youtube.com/" target="_blank" aria-label="Subscribe to our YouTube channel" title="Youtube">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>                    
+                    <a href="https://github.com/Shafi-Yaftali01" target="_blank" aria-label="Follow us on Github" title="Github">
+                        <i class="fa-brands fa-github"></i>
+                    </a> 
+                </div>
+                <!-- Footer Text -->
+                <small>&copy; 2025 Shafi Design. All rights reserved.</small>
+            </footer>
+        </section>
+    </main>
+    <!-- Script -->
+    <script src="https://kit.fontawesome.com/ecb1fa5ff2.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
